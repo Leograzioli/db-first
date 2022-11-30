@@ -4,12 +4,12 @@ id                     |      INT               |      PRIMARY KEY
 year                   |      YEAR              |      NOTNULL
 brand                  |      VARCHAR(25)       |      NOTNULL INDEX
 model                  |      VARCHAR(20)       |      NOTNULL INDEX
-color                  |      VARCHAR(15)       |      NOTNULL
+color                  |      VARCHAR(35)       |      NOTNULL
 kilometers             |      MEDIUMINT         |      NOTNULL 
 owners-qty             |      TINYINT           |      NULL
 any-crash              |      VARCHAR(3)        |      NOTNULL
 if-crashed-descript    |      TEXT              |      NULL
-prize                  |      DECIMAL(7, 1)     |      NOTNULL
+prize                  |      DECIMAL(8, 2)     |      NOTNULL
 gear-type              |      VARCHAR(10)       |      NOTNULL
 gear-number            |      VARCHAR(1)        |      NULL
 traction               |      VARCHAR(10)       |      NOTNULL
