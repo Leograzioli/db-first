@@ -10,19 +10,19 @@ kilometers             |      MEDIUMINT         |      NOTNULL
 owners-qty             |      TINYINT           |      NULL
 any-crash              |      VARCHAR(3)        |      NOTNULL
 if-crashed-descript    |      TEXT              |      NULL
-prize                  |      DECIMAL(8, 0)     |      NOTNULL
-gear-type              |      VARCHAR(10)       |      NOTNULL
-gear-number            |      VARCHAR(1)        |      NULL
 traction               |      VARCHAR(10)       |      NOTNULL
 hp                     |      VARCHAR(4)        |      NULL
 engine                 |      VARCHAR(20)       |      NULL
 seats                  |      VARCHAR(2)        |      NULL
-length-cm              |      TINYINT           |      NULL
-height-cm              |      TINYINT           |      NULL
-width-cm               |      TINYINT           |      NULL
+km/l                   |      TINYINT           |      NULL
+gear-type              |      VARCHAR(10)       |      NOTNULL
+gear-number            |      VARCHAR(1)        |      NULL
+length-cm              |      VARCHAR(3)        |      NULL
+prize                  |      DECIMAL(8, 0)     |      NOTNULL
+height-cm              |      VARCHAR(3)        |      NULL
+width-cm               |      VARCHAR(3)        |      NULL
 Weight-kg              |      SMALLINT          |      NULL
 tyre-type              |      VARCHAR(20)       |      NULL
-km/l                   |      TINYINT           |      NULL
 max-speed-km           |      VARCHAR(3)        |      NULL
 last-check-up          |      DATE              |      NULL
 fuel                   |      VARCHAR(20)       |      NOTNULL 
