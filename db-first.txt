@@ -9,7 +9,7 @@ kilometers             |      MEDIUMINT         |      NOTNULL
 owners-qty             |      TINYINT           |      NULL
 any-crash              |      VARCHAR(3)        |      NOTNULL
 if-crashed-descript    |      TEXT              |      NULL
-prize                  |      DECIMAL(8, 2)     |      NOTNULL
+prize                  |      DECIMAL(8, 0)     |      NOTNULL
 gear-type              |      VARCHAR(10)       |      NOTNULL
 gear-number            |      VARCHAR(1)        |      NULL
 traction               |      VARCHAR(10)       |      NOTNULL
