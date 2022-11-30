@@ -4,6 +4,7 @@ id                     |      INT               |      PRIMARY KEY
 year                   |      YEAR              |      NOTNULL
 brand                  |      VARCHAR(25)       |      NOTNULL INDEX
 model                  |      VARCHAR(20)       |      NOTNULL INDEX
+serial-number          |      VARCHAR(17)       |      NOTNULL UNIQUE
 color                  |      VARCHAR(35)       |      NOTNULL
 kilometers             |      MEDIUMINT         |      NOTNULL 
 owners-qty             |      TINYINT           |      NULL
